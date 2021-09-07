@@ -276,7 +276,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Movie Group', url='https://t.me/MVZNX')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/MoviZenX'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nCreator : <a href='https://telegram.dog/AnnihilusOP'>Saikat🤭</a>\nMovie Group : <a href='https://t.me/MVZNX'>Can't Find Movie?</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/MoviZenX'>MoviZenX</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nCreator : <a href='https://telegram.dog/AnnihilusOP'>Saikat🤭</a>\nMovie Group : <a href='https://t.me/MVZNX'>Can't Find Movie?</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
