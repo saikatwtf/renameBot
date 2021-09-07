@@ -23,7 +23,7 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Harley Quinn bot 3.0**
+**Hi, I'm 𝓟𝓻𝓲𝓷𝓬𝓮𝓼𝓼 𝓓𝓲𝓪𝓷𝓪 Bot**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
 """
