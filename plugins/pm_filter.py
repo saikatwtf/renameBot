@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/MoviZenX'),
-                    InlineKeyboardButton('Movie Group', url='https://t.me/MVZNX')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/movies_s_tore'),
+                    InlineKeyboardButton('Movie Group', url='https://t.me/shairlinks')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/MoviZenX'>MoviZenX</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nCreator : <a href='https://telegram.dog/AnnihilusOP'>Saikat🤭</a>\nMovie Group : <a href='https://t.me/MVZNX'>Can't Find Movie?</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Channel : <a href='https://t.me/movies_s_tore'>Movies_s_tore</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nCreator : <a href='https://telegram.dog/AnnihilusOP'>Saikat🤭</a>\nMovie Group : <a href='https://t.me/shairlinks'>shairlinks</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Movie Group', url='https://t.me/MVZNX'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/MoviZenX')
+                        InlineKeyboardButton('Movie Group', url='https://t.me/shairlinks'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/movies_s_tore')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Movie Group', url='https://t.me/MVZNX'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/MoviZenX')
+                        InlineKeyboardButton('Movie Group', url='https://t.me/shairlinks'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/movies_s_tore')
                     ]
                     ]
                 
@@ -346,4 +346,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("এটা তোমার জন্য নয় সোনা👀",show_alert=True)
+        await query.answer("MOFO it's Not For You�",show_alert=True)
