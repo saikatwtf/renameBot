@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Movie Group', url='https://t.me/MVZNX')
+                        InlineKeyboardButton('Updates Channel', url='https://t.me/movies_s_tore'),
+                        InlineKeyboardButton('Movie Group', url='https://t.me/shairlinks')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Again", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Movie Group", url="https://t.me/MVZNX")
+                        InlineKeyboardButton("Movie channel", url="https://t.me/movies_s_tore"),
+                        InlineKeyboardButton("Movie Group", url="https://t.me/shairlinks")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/MoviZenX'),
-            InlineKeyboardButton('Movie Group', url='https://t.me/MVZNX')
+            InlineKeyboardButton('Update Channel', url='https://t.me/movies_s_tore'),
+            InlineKeyboardButton('Movie Group', url='https://t.me/shairlinks')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/AnnihilusOP'>AnnihilusOP</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMovie Group  : <a href='https://t.me/MVZNX'>MVZNX</a>\nUpdate Channel : <a href='https://t.me/MoviZenX'>MoviZenX</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/AnnihilusOP'>AnnihilusOP</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMovie Group  : <a href='https://t.me/shairlinks'>ShairLinks</a>\nUpdate Channel : <a href='https://t.me/movies_s_tore'>Movie Store</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
